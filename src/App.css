@@ -1,5 +1,41 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
+  font-family: Arial;
+  margin: 0 2em;
+  text-align: left;
+}
+hr {
+  opacity: 50%;
+}
+.row {
+  display: flex;
+}
+.r1 {
+  margin: 0.5em;
+}
+.r1 form input[type=text] {
+  margin: 1em 0;
+  padding: 0.7em;
+  border: 1px solid;
+  border-radius: 0.3em;
+}
+.btn {
+  padding: 0.8em 1em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: rgb(0,124,255);
+  color: white;
+}
+.r2 table td{
+  text-align: right;
+}
+tr {
+  padding: 3em; 
+  border-bottom: 1px solid;
+  border-color: #aaa;
+}
+tr:first-child {
+  background-color: #eee;
 }
 
 .App-logo {
